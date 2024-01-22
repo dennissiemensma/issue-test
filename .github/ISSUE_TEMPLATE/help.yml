@@ -20,36 +20,36 @@ body:
       label: Help yourself
       description: Most of the times you can help yourself by checking the guides or previous solutions.
       options:
-        - label: I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)
+        - label: "I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)"
           required: true
-        - label: I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)
+        - label: "I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)"
           required: true
-        - label: I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
+        - label: "I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)"
           required: true
-        - label: I've checked the [logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html) (when applicable)
+        - label: "I've checked the [logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html) (when applicable)"
           required: true
 
   - type: dropdown
     id: platform
     attributes:
       label: Type of help
-      description: What help do you need?
+      description: What kind of help do you need?
       options:
-        - Setting up or upgrade
-        - Report a bug
-        - Feature or idea
+        - 'Installation or upgrade'
+        - 'Report a bug'
+        - 'Feature or idea'
     validations:
       required: true
 
-#  - type: input
-#    id: version
-#    attributes:
-#      label: DSMR-reader version
-#      description: What version are you using?
-#      placeholder: e.g. 5.11.1
-#    validations:
-#      required: true
-#
+  - type: input
+    id: version
+    attributes:
+      label: DSMR-reader version
+      description: What version are you using?
+      placeholder: e.g. 5.11.1
+    validations:
+      required: true
+
 #  - type: markdown
 #    attributes:
 #      value: |
