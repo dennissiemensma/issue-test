@@ -1,5 +1,5 @@
 name: DSMR-reader issue
-description: Create new issue.
+description: Only for DSMR-reader specific stuff.
 title: '?'
 body:
   - type: markdown
