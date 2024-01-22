@@ -72,7 +72,7 @@ body:
   - type: textarea
     id: debug-info-dump
     attributes:
-      label: 'Optional: Debug info dump'
+      label: 'Optional: Debug info dump (of DSMR-reader)'
       description: |
         When applicable, add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
         This will be automatically formatted into code, so no need for backticks.
@@ -81,7 +81,7 @@ body:
   - type: textarea
     id: telegram
     attributes:
-      label: 'Optional: Telegram'
+      label: 'Optional: Smart meter telegram'
       description: |
         When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
       render: shell-script
