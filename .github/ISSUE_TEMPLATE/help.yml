@@ -24,7 +24,7 @@ body:
           required: true
         - label: "I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)"
           required: true
-        - label: "I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)"
+        - label: "I've checked (recent) [previous issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc) and their solutions"
           required: true
         - label: "I've checked the [logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html) (when applicable)"
           required: true
@@ -57,17 +57,17 @@ body:
 
         *Please provide additional information below.*
 
-#  - type: dropdown
-#    id: platform
-#    attributes:
-#      label: DSMR-reader platform
-#      description: How do you run DSMR-reader?
-#      options:
-#        - "Native *(e.g. manual installation)*"
-#        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
-#        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
-#    validations:
-#      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: DSMR-reader platform
+      description: How do you run DSMR-reader?
+      options:
+        - "Native *(e.g. manual installation)*"
+        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
+        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
+    validations:
+      required: true
 #
 #  - type: textarea
 #    id: debug-info-dump
