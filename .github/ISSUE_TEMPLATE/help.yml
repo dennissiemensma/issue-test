@@ -1,6 +1,6 @@
 name: DSMR-reader issue
 description: Create new issue.
-title: ''
+title: ' '
 body:
   - type: markdown
     attributes:
