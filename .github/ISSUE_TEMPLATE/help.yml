@@ -63,9 +63,9 @@ body:
       label: DSMR-reader platform
       description: How do you run DSMR-reader?
       options:
-        - "Native (e.g. manual installation)"
-        - "Docker (e.g. Xirixiz's DSMR-reader Docker)"
-        - "Other (e.g. Home Assistant Plugin)"
+        - "Native *(e.g. manual installation)*"
+        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
+        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
     validations:
       required: true
 #
