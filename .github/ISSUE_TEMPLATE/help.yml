@@ -14,25 +14,25 @@ body:
         - '🇬🇧 English'
     validations:
       required: true
-#
-#  - type: checkboxes
-#    attributes:
-#      label: Self-service
-#      description: |
-#        ### Help yourself
-#        Most of the times you can help yourself with:
-#        - Check [the how to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html).
-#        - See previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions).
-#        - See (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
-#        - Errors? Check [your logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html).
-#      options:
-#        - label: I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)
-#          required: true
-#        - label: I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)
-#          required: true
-#        - label: I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
-#          required: true
-#
+
+  - type: checkboxes
+    attributes:
+      label: Self-service
+      description: |
+        ### Help yourself
+        Most of the times you can help yourself with:
+        - Check [the how to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html).
+        - See previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions).
+        - See (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
+        - Errors? Check [your logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html).
+      options:
+        - label: I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)
+          required: true
+        - label: I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)
+          required: true
+        - label: I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
+          required: true
+
 #  - type: dropdown
 #    id: platform
 #    attributes:
