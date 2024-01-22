@@ -14,78 +14,78 @@ body:
         - '🇬🇧 English'
     validations:
       required: true
-
-  - type: checkboxes
-    attributes:
-      label: Self-service
-      description: |
-        ### Help yourself
-        Most of the times you can help yourself with:
-        - Check [the how to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html).
-        - See previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions).
-        - See (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
-        - Errors? Check [your logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html).
-      options:
-        - label: I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)
-          required: true
-        - label: I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)
-          required: true
-        - label: I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
-          required: true
-
-  - type: dropdown
-    id: platform
-    attributes:
-      label: Type of help
-      description: What help do you need?
-      options:
-        - Setting up or upgrade
-        - Report a bug
-        - Feature or idea
-    validations:
-      required: true
-
-  - type: input
-    id: version
-    attributes:
-      label: DSMR-reader version
-      description: What version are you using?
-      placeholder: e.g. 5.11.1
-    validations:
-      required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ----
-
-        *Provide additional information below, as it will help you.*
-
-  - type: dropdown
-    id: platform
-    attributes:
-      label: DSMR-reader platform
-      description: How do you run DSMR-reader?
-      options:
-        - "Native *(e.g. manual installation)*"
-        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
-        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
-    validations:
-      required: true
-
-  - type: textarea
-    id: debug-info-dump
-    attributes:
-      label: 'Optional: Debug info dump'
-      description: |
-        When applicable, add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below. 
-        This will be automatically formatted into code, so no need for backticks.
-      render: shell-script
-
-  - type: textarea
-    id: telegram
-    attributes:
-      label: 'Optional: Telegram'
-      description: |
-        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
-      render: shell-script
+#
+#  - type: checkboxes
+#    attributes:
+#      label: Self-service
+#      description: |
+#        ### Help yourself
+#        Most of the times you can help yourself with:
+#        - Check [the how to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html).
+#        - See previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions).
+#        - See (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc).
+#        - Errors? Check [your logfiles](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/logfiles.html).
+#      options:
+#        - label: I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)
+#          required: true
+#        - label: I've checked previous [questions](https://github.com/dsmrreader/dsmr-reader/discussions)
+#          required: true
+#        - label: I've checked (recent) previous [issues](https://github.com/dsmrreader/dsmr-reader/issues?q=is%3Aissue+is%3Aclosed+sort%3Aupdated-desc)
+#          required: true
+#
+#  - type: dropdown
+#    id: platform
+#    attributes:
+#      label: Type of help
+#      description: What help do you need?
+#      options:
+#        - Setting up or upgrade
+#        - Report a bug
+#        - Feature or idea
+#    validations:
+#      required: true
+#
+#  - type: input
+#    id: version
+#    attributes:
+#      label: DSMR-reader version
+#      description: What version are you using?
+#      placeholder: e.g. 5.11.1
+#    validations:
+#      required: true
+#
+#  - type: markdown
+#    attributes:
+#      value: |
+#        ----
+#
+#        *Provide additional information below, as it will help you.*
+#
+#  - type: dropdown
+#    id: platform
+#    attributes:
+#      label: DSMR-reader platform
+#      description: How do you run DSMR-reader?
+#      options:
+#        - "Native *(e.g. manual installation)*"
+#        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
+#        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
+#    validations:
+#      required: true
+#
+#  - type: textarea
+#    id: debug-info-dump
+#    attributes:
+#      label: 'Optional: Debug info dump'
+#      description: |
+#        When applicable, add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
+#        This will be automatically formatted into code, so no need for backticks.
+#      render: shell-script
+#
+#  - type: textarea
+#    id: telegram
+#    attributes:
+#      label: 'Optional: Telegram'
+#      description: |
+#        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
+#      render: shell-script
