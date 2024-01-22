@@ -52,8 +52,8 @@ body:
     id: dsmrreader-version
     attributes:
       label: DSMR-reader version
-      description: What version are you using?
-      placeholder: e.g. 5.11.1
+      description: What version are you using? E.g. ``v5.10.2``.
+      placeholder: vX.Y.Z
     validations:
       required: true
 
