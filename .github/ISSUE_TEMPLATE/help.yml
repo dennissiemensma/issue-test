@@ -30,7 +30,7 @@ body:
           required: true
 
   - type: dropdown
-    id: platform
+    id: inquiry
     attributes:
       label: Inquiry
       description: What do you need?
