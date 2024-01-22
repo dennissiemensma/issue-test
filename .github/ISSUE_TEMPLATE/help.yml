@@ -5,7 +5,7 @@ body:
   - type: dropdown
     id: language
     attributes:
-      label: Language
+      label: Communicatietaal / Language
       description: |
         - *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project technisch Engelstalig is.* 
         - *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
@@ -67,9 +67,9 @@ body:
       label: DSMR-reader platform
       description: How do you run DSMR-reader?
       options:
-        - Native *(e.g. manual installation)*
-        - Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*
-        - Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*
+        - "Native *(e.g. manual installation)*"
+        - "Docker *(e.g. [Xirixiz's DSMR-reader Docker](https://github.com/xirixiz/dsmr-reader-docker))*"
+        - "Other *(e.g. [Home Assistant Plugin](https://github.com/sanderdw/hassio-addons))*"
     validations:
       required: true
 
