@@ -68,20 +68,20 @@ body:
         - "Other (e.g. Home Assistant Plugin)"
     validations:
       required: true
-#
-#  - type: textarea
-#    id: debug-info-dump
-#    attributes:
-#      label: 'Optional: Debug info dump'
-#      description: |
-#        When applicable, add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
-#        This will be automatically formatted into code, so no need for backticks.
-#      render: shell-script
-#
-#  - type: textarea
-#    id: telegram
-#    attributes:
-#      label: 'Optional: Telegram'
-#      description: |
-#        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
-#      render: shell-script
+
+  - type: textarea
+    id: debug-info-dump
+    attributes:
+      label: 'Optional: Debug info dump'
+      description: |
+        When applicable, add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
+        This will be automatically formatted into code, so no need for backticks.
+      render: shell-script
+
+  - type: textarea
+    id: telegram
+    attributes:
+      label: 'Optional: Telegram'
+      description: |
+        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
+      render: shell-script
