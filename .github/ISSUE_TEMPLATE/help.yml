@@ -32,10 +32,10 @@ body:
   - type: dropdown
     id: platform
     attributes:
-      label: Type of help
-      description: What kind of help do you need?
+      label: Inquiry
+      description: What do you need?
       options:
-        - 'Installation or upgrade'
+        - 'Help with installation or upgrade'
         - 'Report a bug'
         - 'Feature or idea'
     validations:
@@ -50,13 +50,13 @@ body:
     validations:
       required: true
 
-#  - type: markdown
-#    attributes:
-#      value: |
-#        ----
-#
-#        *Provide additional information below, as it will help you.*
-#
+  - type: markdown
+    attributes:
+      value: |
+        ----
+
+        *Please provide additional information below.*
+
 #  - type: dropdown
 #    id: platform
 #    attributes:
