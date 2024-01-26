@@ -48,8 +48,8 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: 'Your issue, suggestion or bug description'
-      description: ''
+      label: 'Description'
+      description: 'Your issue, suggestion or bug description'
     validations:
       required: true
 
