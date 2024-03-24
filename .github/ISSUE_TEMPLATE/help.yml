@@ -5,11 +5,11 @@ body:
   - type: dropdown
     id: language
     attributes:
-      label: Communicatietaal / Language
+      label: Language / Voertaal
       description: |
         > [!NOTE]
-        > - *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project technisch Engelstalig is.* 
-        > - *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
+        > *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
+        > *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project (technisch gezien) Engelstalig is.*
       options:
         - '🇳🇱 Nederlandstalig'
         - '🇬🇧 English'
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Help yourself
       description: |
-        > [!TIP]
+        > [!IMPORTANT]
         > Most of the times you can help yourself by checking the guides or previous solutions. **Verify each one of these**:
       options:
         - label: "I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)"
@@ -95,8 +95,7 @@ body:
         When applicable (e.g. with tech issues), add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
 
         > [!TIP]
-        > Providing this information *may* assist in providing you better help. 
-        > *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
+        > Providing this information *may* assist in providing you better help. *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
       render: shell-script
 
   - type: textarea
@@ -107,6 +106,5 @@ body:
         When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
         
         > [!TIP]
-        > Providing this information *may* assist in providing you better help. 
-        > *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
+        > Providing this information *may* assist in providing you better help. *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
       render: shell-script
