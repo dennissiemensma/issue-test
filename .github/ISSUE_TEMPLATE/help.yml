@@ -7,8 +7,9 @@ body:
     attributes:
       label: Communicatietaal / Language
       description: |
-        - *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project technisch Engelstalig is.* 
-        - *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
+        > [!NOTE]
+        > - *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project technisch Engelstalig is.* 
+        > - *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
       options:
         - '🇳🇱 Nederlandstalig'
         - '🇬🇧 English'
@@ -20,7 +21,7 @@ body:
       label: Help yourself
       description: |
         > [!TIP]
-        > Most of the times you can help yourself by checking the guides or previous solutions. Verify each one of these.
+        > Most of the times you can help yourself by checking the guides or previous solutions. **Verify each one of these**:
       options:
         - label: "I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)"
           required: true
@@ -65,7 +66,9 @@ body:
     id: dsmrreader-version
     attributes:
       label: DSMR-reader version
-      description: What version are you using? E.g. ``v5.10.2``.
+      description: |
+        > [!IMPORTANT]
+        > What DSMR-reader version are you using? E.g. ``v5.10.2``.
       placeholder: vX.Y.Z
     validations:
       required: true
@@ -74,7 +77,9 @@ body:
     id: platform
     attributes:
       label: DSMR-reader platform
-      description: How do you run DSMR-reader?
+      description: |
+        > [!IMPORTANT]
+        > How do you run DSMR-reader?
       options:
         - "Native (e.g. manual installation)"
         - "Docker (e.g. Xirixiz's DSMR-reader Docker)"
