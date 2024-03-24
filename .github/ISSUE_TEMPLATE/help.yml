@@ -99,10 +99,10 @@ body:
     attributes:
       label: 'Optional: Debug info dump (of DSMR-reader)'
       description: |
-        When applicable (e.g. with tech issues), add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
-
         > [!TIP]
         > Providing this information *may* assist in providing you better help. *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
+
+        When applicable (e.g. with tech issues), add a [dsmr_debuginfo dump](https://dsmr-reader.readthedocs.io/nl/v5/how-to/troubleshooting/debug-info-dump.html) below.
       render: shell-script
 
   - type: textarea
@@ -110,8 +110,8 @@ body:
     attributes:
       label: 'Optional: Smart meter telegram'
       description: |
-        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
-        
         > [!TIP]
         > Providing this information *may* assist in providing you better help. *Also, everything you type in this fields will be automatically formatted into code, so **no need for backticks**.*
+        
+        When applicable (e.g. on readings mismatch), add a [data telegram](https://dsmr-reader.readthedocs.io/nl/v5/explained/about.html#support) below.
       render: shell-script
