@@ -21,7 +21,9 @@ body:
       label: Help yourself
       description: |
         > [!IMPORTANT]
-        > Most of the times you can help yourself by checking the guides or previous solutions. **Verify each one of these**:
+        > Most of the times you can help yourself by checking the guides or previous solutions.
+        
+        **Verify each one of these**:
       options:
         - label: "I've checked [the how-to guides](https://dsmr-reader.readthedocs.io/nl/v5/how-to/index.html)"
           required: true
@@ -52,7 +54,11 @@ body:
     id: description
     attributes:
       label: 'Description'
-      description: 'Your issue, suggestion or bug description'
+      description: |
+        Your issue, suggestion or bug description
+        
+        > [!TIP]
+        > E.g. installation trouble, readings stopped working, data is gone, feature request, bug report...
     validations:
       required: true
 
