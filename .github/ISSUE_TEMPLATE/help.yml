@@ -2,6 +2,13 @@ name: DSMR-reader issue
 description: Only for DSMR-reader specific stuff.
 title: '?'
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!TIP]
+        > ⬆️ *Choose a title that help other people understand what your issue is about, without reading the entire thing below.* ⬆️
+        ----
+
   - type: dropdown
     id: language
     attributes:
@@ -61,12 +68,6 @@ body:
         > E.g. installation trouble, readings stopped working, data is gone, feature request, bug report...
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        ----
-        *Please provide additional information below.*
 
   - type: input
     id: dsmrreader-version
