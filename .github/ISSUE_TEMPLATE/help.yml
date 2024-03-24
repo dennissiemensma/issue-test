@@ -6,7 +6,8 @@ body:
     attributes:
       value: |
         > [!TIP]
-        > ⬆️ *Choose a title that help other people understand what your issue is about, without reading the entire thing below.* ⬆️
+        > *Choose a title ⬆️ that help other people understand what your issue is about, without reading the entire thing below.*
+        
         ----
 
   - type: dropdown
@@ -14,9 +15,8 @@ body:
     attributes:
       label: Language / Voertaal
       description: |
-        > [!NOTE]
-        > *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
-        > *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project (technisch gezien) Engelstalig is.*
+        *🇬🇧 Unable to communicate in Dutch? Welcome anyway! Feel free to use English.*
+        *🇳🇱 Voel je vooral vrij om in het Nederlands te communiceren, ondanks dat het project (technisch gezien) Engelstalig is.*
       options:
         - '🇳🇱 Nederlandstalig'
         - '🇬🇧 English'
@@ -28,7 +28,7 @@ body:
       label: Help yourself
       description: |
         > [!IMPORTANT]
-        > Most of the times you can help yourself by checking the guides or previous solutions.
+        > Most of the times you can help yourself by checking the guides or previous solutions/reports made. Simply shallowly searching for a minute or two may save your lots of time. 
         
         **Verify each one of these**:
       options:
